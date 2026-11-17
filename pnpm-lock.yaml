@@ -1,0 +1,45 @@
+lockfileVersion: '13.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+catalogs:
+  default:
+    zod:
+      specifier: ^3.22.0
+      version: 3.22.4
+    ms:
+      specifier: ^2.1.3
+      version: 2.1.3
+
+importers:
+
+  .:
+    specifiers:
+      '@probe/local-lib': 'file:./packages/local-lib'
+      zod: 'catalog:'
+    dependencies:
+      '@probe/local-lib': link:packages/local-lib
+      zod: 3.22.4
+
+  packages/local-lib:
+    specifiers:
+      ms: 'catalog:'
+    dependencies:
+      ms: 2.1.3
+
+packages:
+
+  ms@2.1.3:
+    resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTg==}
+
+  zod@3.22.4:
+    resolution: {integrity: sha512-iuyye8JKAQ+RSmGpBmASB1GiXLGGkiQGIXCpMqoJQEEKDNAIFNlGT0EvKOLWQnOaFRNJhsJbMNmLdLDYtJ3dA==}
+    engines: {node: '>=12.0.0'}
+
+snapshots:
+
+  ms@2.1.3: {}
+
+  zod@3.22.4: {}
