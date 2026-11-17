@@ -1,0 +1,8 @@
+{
+  "name": "pnpm-v13-file-catalog-probe",
+  "version": "1.0.0",
+  "dependencies": {
+    "@probe/local-lib": "file:./packages/local-lib",
+    "zod": "catalog:"
+  }
+}
