@@ -1,0 +1,5 @@
+packages:
+  - 'packages/*'
+catalog:
+  zod: ^3.22.0
+  ms: ^2.1.3
