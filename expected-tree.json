@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-11-17T20:36:37Z",
+  "packages": {
+    "@probe/local-lib": {
+      "dependencies": [
+        "ms"
+      ],
+      "group": "main",
+      "source": "local",
+      "source_detail": {
+        "catalog_resolved": true,
+        "path": "./packages/local-lib"
+      },
+      "version": "1.0.0"
+    },
+    "ms": {
+      "dependencies": [],
+      "group": "main",
+      "hashes": [
+        "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTg=="
+      ],
+      "source": "registry",
+      "source_detail": {
+        "catalog": "default"
+      },
+      "version": "2.1.3"
+    },
+    "zod": {
+      "dependencies": [],
+      "group": "main",
+      "hashes": [
+        "sha512-iuyye8JKAQ+RSmGpBmASB1GiXLGGkiQGIXCpMqoJQEEKDNAIFNlGT0EvKOLWQnOaFRNJhsJbMNmLdLDYtJ3dA=="
+      ],
+      "source": "registry",
+      "source_detail": {
+        "catalog": "default"
+      },
+      "version": "3.22.4"
+    }
+  },
+  "pm": "pnpm",
+  "pm_version_tested": "12.22.0",
+  "pm_version_under_test": "12.22.0",
+  "root": {
+    "dependencies": [
+      "@probe/local-lib",
+      "zod"
+    ],
+    "name": "pnpm-v13-file-catalog-probe",
+    "version": "1.0.0"
+  },
+  "schema_version": "1.2",
+  "source_file": "/opt/qa-detection-agents/output/_call-2bcdeee31477/pnpm/lockfile-v13-file-catalog-20261117-203637/pnpm-lock.yaml"
+}
